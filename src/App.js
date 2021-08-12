@@ -42,6 +42,8 @@ function App() {
           onChange={handleChange}
           value={word}
           placeholder="cats"
+          required
+          pattern="\S+.*"
         />
         <div className="input-group-append">
           <button className="btn btn-primary " type="submit">
