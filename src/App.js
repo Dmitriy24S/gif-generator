@@ -5,6 +5,9 @@ function App() {
   const [word, setWord] = useState("");
   const [link, setLink] = useState("");
 
+  const loader = <div className="loader"></div>;
+  let image = <img src={link} alt={link ? word : ""} />;
+
   const fetchData = async () => {
     try {
       setLoading(true);
@@ -20,7 +23,6 @@ function App() {
   };
 
   const handleChange = (e) => {
-    e.preventDefault();
     setWord(e.target.value);
   };
 
@@ -28,9 +30,6 @@ function App() {
     e.preventDefault();
     fetchData();
   };
-
-  const loader = <div className="loader"></div>;
-  let image = <img src={link} alt={word} />;
 
   return (
     <div className="App ">
