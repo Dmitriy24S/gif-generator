@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Random GIF Generator
+Made with GIPHY API, Bootstrap, React
+
+[Live Demo](https://dmitriy24s.github.io/gif-generator/) 👈
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
