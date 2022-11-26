@@ -1,4 +1,7 @@
 # Random GIF Generator
+
+![Design preview for GIF Generator](./design-preview/design-preview.png)
+
 Made with GIPHY API, Bootstrap, React
 
 [Live Demo](https://dmitriy24s.github.io/gif-generator/) 👈
